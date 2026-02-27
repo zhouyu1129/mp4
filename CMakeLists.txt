@@ -19,7 +19,7 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 # Set the project name
-set(CMAKE_PROJECT_NAME sd_and_lcd2)
+set(CMAKE_PROJECT_NAME mp4)
 
 # Enable compile command to ease indexing with e.g. clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
