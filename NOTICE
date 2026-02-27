@@ -1,0 +1,68 @@
+# Third-Party Licenses
+
+This project uses the following third-party libraries and components:
+
+## 1. CMSIS (Cortex Microcontroller Software Interface Standard)
+- **License**: Apache License 2.0
+- **Copyright**: ARM Limited
+- **Location**: Drivers/CMSIS/
+- **Description**: ARM Cortex Microcontroller Software Interface Standard
+- **License URL**: https://www.apache.org/licenses/LICENSE-2.0
+
+## 2. STM32F4xx HAL Driver
+- **License**: BSD-3-Clause License
+- **Copyright**: STMicroelectronics
+- **Location**: Drivers/STM32F4xx_HAL_Driver/
+- **Description**: STM32F4xx Hardware Abstraction Layer Driver
+- **License URL**: https://opensource.org/licenses/BSD-3-Clause
+
+## 3. STM32F4xx CMSIS Device
+- **License**: Apache License 2.0
+- **Copyright**: STMicroelectronics
+- **Location**: Drivers/CMSIS/Device/ST/STM32F4xx/
+- **Description**: STM32F4xx Device Specific CMSIS Support
+- **License URL**: https://www.apache.org/licenses/LICENSE-2.0
+
+## 4. FatFs (Generic FAT File System Module)
+- **License**: Custom License (BSD-like, more permissive)
+- **Copyright**: (C) 2017, ChaN
+- **Location**: Middlewares/Third_Party/FatFs/
+- **Description**: Generic FAT file system module R0.12c
+- **License Terms**:
+  - Redistributions of source code must retain the above copyright notice
+  - This software is provided by the copyright holder and contributors "AS IS"
+  - Any warranties related to this software are DISCLAIMED
+  - The copyright owner or contributors be NOT LIABLE for any damages caused by use of this software
+
+## 5. TJpgDec (Tiny JPEG Decompressor)
+- **License**: Custom License (BSD-like, more permissive)
+- **Copyright**: (C) 2021, ChaN
+- **Location**: TJpgDec/
+- **Description**: Tiny JPEG Decompressor R0.03
+- **License Terms**:
+  - Redistributions of source code must retain the above copyright notice
+  - This software is provided by the copyright holder and contributors "AS IS"
+  - Any warranties related to this software are DISCLAIMED
+  - The copyright owner or contributors be NOT LIABLE for any damages caused by use of this software
+
+## 6. ST7735 LCD Driver
+- **License**: MIT License
+- **Copyright**: (c) 2018 Aleksander Alekseev
+- **Location**: st7735/
+- **Description**: ST7735 LCD Display Driver (modified from original)
+- **License URL**: https://opensource.org/licenses/MIT
+- **Note**: This library has been significantly modified from the original version
+
+---
+
+## License Summary
+
+| Library | License | Commercial Use | Modification | Distribution | Attribution Required |
+|---------|---------|----------------|--------------|--------------|---------------------|
+| CMSIS | Apache 2.0 | Yes | Yes | Yes | Yes |
+| STM32 HAL | BSD-3-Clause | Yes | Yes | Yes | Yes |
+| FatFs | Custom | Yes | Yes | Yes | Yes |
+| TJpgDec | Custom | Yes | Yes | Yes | Yes |
+| ST7735 Driver | MIT | Yes | Yes | Yes | Yes |
+
+All third-party licenses are compatible with the MIT License used for this project.
